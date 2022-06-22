@@ -8,7 +8,6 @@
      let userChoice
      let result
 
-
      possibleChoices.forEach(possibleChoice => addEventListener('click' , (e) => {
         userChoice = e.target.id
         userChoiceDisplay.innerHTML = userChoice
@@ -30,7 +29,6 @@
 
         computerChoiceDisplay.innerHTML = computerChoice
       }
-
 
       function getResult() {
         if (computerChoice === userChoice) {
